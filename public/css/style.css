@@ -2,7 +2,21 @@ h4, h5, h6,
 h1, h2, h3 {margin: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
-
+/*adding style in this*/
+.photo-wrapper {
+    float: left;
+    width: 320px;
+    height: 180px;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.photo-wrapper img {
+    height: 100%;
+}
+/*adding style in this end*/
 html, body{
 	font-family: 'Roboto Condensed', sans-serif;
     font-size: 100%;
