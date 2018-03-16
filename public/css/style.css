@@ -84,7 +84,8 @@ body a:hover{
 button#showLeftPush {
     font-size: 1.5em;
     width: 80px;
-    padding: 0.87em 0;
+    /*padding: 0.87em 0;*/
+    padding-top: 25%;
     text-align: center;
     cursor: pointer;
     float: left;
@@ -103,9 +104,11 @@ button#showLeftPush {
 .cbp-spmenu-vertical {
     width: 309px;
     height: 100%;
-    top: 76px;
+    /*top: 76px;*/
     background-color: #2a2f43;
-    padding: 2em 0;
+   /* padding: 2em 0;*/
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 .cbp-spmenu-right {
     right: 0;
@@ -3495,13 +3498,13 @@ ul.nofitications-dropdown {
 	}
 	.cbp-spmenu-vertical {
 		width: 176px;
-		top: 152px;
+		top: 62px;
 	}
 	.sidebar ul li {
 		margin-bottom: 0em;
 	}
 	#page-wrapper {
-		padding: 11em 2em 2.5em !important;
+		/*padding: 11em 2em 2.5em !important;*/
 	}
 	li.fat-l {
 		padding: 1em !important;
@@ -3800,7 +3803,7 @@ ul.nofitications-dropdown {
 		font-size: 1.5em;
 	}
 	#page-wrapper {
-		padding: 10em 1em 2.5em !important;
+		padding: 5em 1em 2.5em !important;
 	}
 	.grid_5 {
 		padding: 0em;
@@ -3889,7 +3892,7 @@ ul.nofitications-dropdown {
 	}
 	.cbp-spmenu-vertical {
 		width: 143px;
-		top: 143px;
+		top: 66px;
 	}
 	.sidebar .nav-second-level li a {
 		font-size: .8em !important;
