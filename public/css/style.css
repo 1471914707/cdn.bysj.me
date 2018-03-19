@@ -3,6 +3,9 @@ h1, h2, h3 {margin: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
 /*adding style in this*/
+.block-pagination{
+    float: right;
+}
 .photo-wrapper {
     float: left;
     width: 320px;
@@ -434,6 +437,7 @@ i.fa.fa-tasks{
 	line-height:0;
 	font-size:0;
 	overflow:hidden;
+    padding-right: 5%;
 }
 /*--- Progress Bar ----*/
 .meter {
@@ -1730,7 +1734,7 @@ abbr[data-original-title] {
 	color: #FFF;
     font-size: 1em;
     margin: .5em 0 0 0;
-	text-align:right;
+    text-align: right; padding-right: 5%;
 }
 .copyright p a{
     color: #FFF;
@@ -1890,7 +1894,7 @@ canvas#radar{
 /*---//footer---*/
 /*-- Typography --*/
 .typo-heading h2,.progressbar-heading h2{
-	color: #fd5c63;
+	/*color: #fd5c63;*/
     font-size: 2em;
 	margin-bottom:1em;
 }
@@ -2342,7 +2346,7 @@ canvas#viewport {
   width: 100%;
   font-size: 0.85em;
   font-weight: 300;
-  height: 40px;
+/*  height: 40px;*/
   border-radius: 0;
   -webkit-appearance: none;
   resize: none;
@@ -3424,7 +3428,7 @@ ul.nofitications-dropdown {
 	.cbp-spmenu-vertical {
 		padding: 1em 0;
 		width: 201px;
-		top: 69px;
+		top: 60px;
 	}
 	.cbp-spmenu-push div#page-wrapper {
 		margin: 0em 0em 0 0;
@@ -3892,7 +3896,7 @@ ul.nofitications-dropdown {
 	}
 	.cbp-spmenu-vertical {
 		width: 143px;
-		top: 66px;
+		top: 60px;
 	}
 	.sidebar .nav-second-level li a {
 		font-size: .8em !important;
