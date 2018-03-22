@@ -2517,12 +2517,13 @@ button#default-map-btn, button#green-map-btn, button#blue-map-btn,button#grey-ma
 /*-- //maps --*/
 /*-- login --*/
 .login-bg{
-    background: url(http://cdn.ican.com/public/images/bj.jpg) no-repeat 0px 0px;
+    /*background: url(http://cdn.ican.com/public/images/bj.jpg) no-repeat 0px 0px;*/
     background-size: cover;
     padding: 7em 0;
 }
 .login-body{
 	width: 30%;
+    height: 100%;
     margin:0 auto;
 }
 .login-heading{
@@ -3854,7 +3855,7 @@ ul.nofitications-dropdown {
 		padding: 3em 0;
 	}
 	.login-body {
-		width: 90%;
+		width: 100%;
 	}	
 	.forgot-grid {
 		float: none;
