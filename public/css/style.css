@@ -5,6 +5,7 @@ p {margin: 0;}
 /*adding style in this*/
 .block-pagination{
     float: right;
+    padding-top:5px;
 }
 .photo-wrapper {
     float: left;
@@ -33,7 +34,7 @@ body a{
 	-o-transition: 0.5s all ease;
 	-ms-transition: 0.5s all ease;
 	text-decoration:none;
-    color: #362c30;
+    /*color: #362c30;*/
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;			   
@@ -323,11 +324,13 @@ i.fa.fa-tasks{
     padding: 1.2em 2.03em;
     display: block;
     text-decoration: none;
+    height: 25px;
 }
 .logo a h1 {
     color: #fff;
     font-size: 2em;
-    line-height: 1.2em;
+    /*line-height: 1.2em;*/
+    line-height: 33px;
     font-weight: 700;
 }
 .logo a span {
@@ -1086,7 +1089,7 @@ canvas.flot-overlay {
 	margin: 0 auto;
 }
 table th:first-child {
-	width: 150px;
+	/*width: 150px;*/
 }
 .gantt, .gantt2 {
 	width: 100%;
@@ -3429,7 +3432,7 @@ ul.nofitications-dropdown {
 	.cbp-spmenu-vertical {
 		padding: 1em 0;
 		width: 201px;
-		top: 80px;
+		top: 60px;
 	}
 	.cbp-spmenu-push div#page-wrapper {
 		margin: 0em 0em 0 0;
@@ -3804,7 +3807,7 @@ ul.nofitications-dropdown {
 		height: 266px;
 	}
 	.typo-heading h2, .progressbar-heading h2 {
-		color: #fd5c63;
+		/*color: #fd5c63;*/
 		font-size: 1.5em;
 	}
 	#page-wrapper {
@@ -3897,7 +3900,7 @@ ul.nofitications-dropdown {
 	}
 	.cbp-spmenu-vertical {
 		width: 143px;
-		top: 60px;
+		top: 50px;
 	}
 	.sidebar .nav-second-level li a {
 		font-size: .8em !important;
